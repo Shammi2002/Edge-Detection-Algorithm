@@ -1,35 +1,34 @@
 # Edge-Detection-Algorithm
 EE587 Digital System and Design Synthesis-Sobel Edge Detection (Milestone 1)
 
-This project implements an edge detection algorithm (Sobel filter) in Verilog for behavioral simulation.
-Milestone 1 focuses on verifying the Sobel algorithm functionality in simulation (no FPGA/VGA hardware work required yet). 
+This project implements an edge detection algorithm (Sobel filter) in Verilog for behavioral simulation.Milestone 1 focuses on verifying the Sobel algorithm functionality in simulation  
 
-### What the Sobel Filter Does
-The Sobel filter detects edges by computing image intensity gradients in:
-        1. X direction (horizontal changes)
-        2. Y direction (vertical changes)
-        3. A gradient magnitude is then computed per pixel, and typically thresholded or clipped to 8-bit for display/storage.
+### What the Sobel Filter Does ?
+#### The Sobel filter detects edges by computing image intensity gradients in:
+        -  X direction (horizontal changes)
+        -  Y direction (vertical changes)
+        -  A gradient magnitude is then computed per pixel, and typically thresholded or clipped to 8-bit for display
 
-### Inputs and Outputs (Expected)
-    Input: grayscale image (8-bit pixels recommended)
-    Output: edge map image (8-bit pixels)
+### Inputs and Outputs
+        Input: grayscale image (8-bit pixels)
+        Output: output image (8-bit pixels)
 
-#### How to Run (Typical Workflow)
-        Generate reference output using Python/Matlab:
-        Read input image
-        Convert to grayscale (if needed)
-        Apply Sobel filter
-        Save reference output image
-        Export the grayscale input image into a .hex file for Verilog simulation
+#### How to Run 
+        Convert Input image.png file to input01_image.hex verilog readable file using Python/Matlab(High Level Language) 
+        Generate grayscale image using input01_image.hex file
+        Save reference image in Edge Detection Algorithm/Edge Detection Algorithm.sim/sim_1/behav/x_sim
+        Apply Sobel filter Edge Detection Algorithm on input01_image.hex
+        Obtain output.hex file through verilog implementation
+        Generate output image.png from obtained output.hex file
 
 ####  Run Verilog simulation:
-        Testbench loads input_image.hex
-        Feeds pixels into sobel.v
-        Collects output pixels into output_image.hex
+        Testbench loads Reference image.hex
+        Feeds pixels into conv_test.v
+        Collects output pixels into output image.hex
 
 #### Compare results:
-        Convert output_image.hex back into an image
-        Compare with reference image (visual + numeric comparison)
+        Convert output image.hex back into an image
+        Compare with reference image 
   
  
 
