@@ -32,3 +32,6 @@ This project implements an edge detection algorithm (Sobel filter) in Verilog fo
   
  
 
+Reference:
+usmanwardag, “GitHub - usmanwardag/sobel: Implementation of Sobel Filter in Verilog,” GitHub, 2025. https://github.com/usmanwardag/sobel/tree/master (accessed Feb. 10, 2026).
+‌
