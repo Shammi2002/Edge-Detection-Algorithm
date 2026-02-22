@@ -50,10 +50,10 @@ The verification process involves a hybrid approach using Python/MATLAB for pre-
 ---
 
 ### 📂 Repository Structure
-* `/Source code': Verilog source files (Sobel core, convolution logic).
+* `/Source code`: Verilog source files (Sobel core, convolution logic).
 * `/Test code`: Testbench for behavioral simulation.
 * `/scripts`: Python scripts for image-to-hex conversion.
-* `/summary`: Simulation results and waveforms.
+* `/Summary`: Simulation results and waveforms.
 
 ---
 
