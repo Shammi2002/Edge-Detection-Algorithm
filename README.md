@@ -2,7 +2,7 @@
 ## EE587 Digital System and Design Synthesis | Milestone 1
 
 [![Verilog](https://img.shields.io/badge/Language-Verilog-green?style=flat-square)](https://en.wikipedia.org/wiki/Verilog)
-[![Tool](https://img.shields.io/badge/Tools-Vivado_/_ModelSim-orange?style=flat-square)](https://www.xilinx.com/products/design-tools/vivado.html)
+[![Tool](https://img.shields.io/badge/Tools-Vivado_-orange?style=flat-square)](https://www.xilinx.com/products/design-tools/vivado.html)
 [![Status](https://img.shields.io/badge/Project--Phase-Milestone--1_Simulation-blue?style=flat-square)]()
 
 ### 📌 Project Overview
